@@ -1,6 +1,9 @@
 import socket
 
 ports = [21, 22, 80, 443, 445, 3306, 25]
+title =  " Door Scan " 
+
+print("\n" + title.center(20, "#") + "\n")
 
 print("Qual é o endereço IP?")
 host = input()
